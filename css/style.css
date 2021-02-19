@@ -7,8 +7,8 @@ img {
 }
 a {
     display:block;
-    /*    color: #666; */
-    color: #333;
+    color: #666; 
+    /* color: #333; */
     text-decoration-line: none;
 }
 a:hover { 
