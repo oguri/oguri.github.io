@@ -53,9 +53,9 @@ ul li{
 }
 nav ul {
 	display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
 	margin-bottom: 1rem;
 }
 nav li {
@@ -66,6 +66,7 @@ nav li a {
     color: #666;
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 nav a:hover {
     background-color: #f7f7f7;    
