@@ -7,12 +7,14 @@ img {
 }
 a {
     display:block;
-    color: #666; 
-    /* color: #333; */
+    /* color: #666; */
+    color: #0058B3;
     text-decoration-line: none;
+    display: inline;
 }
 a:hover { 
-    color: #999;
+    /* color: #999; */
+    color: #c44; 
 }
 a img:hover {
 	opacity: 0.8;
@@ -20,6 +22,12 @@ a img:hover {
 .underline {
 	border-bottom: 3px solid #000;
 	padding-bottom: 0.5rem;
+}
+ul{
+    text-indent: -1em;
+  }
+ul li{
+    margin-left: 1em;
 }
 
 /*ヘッダー
@@ -29,9 +37,14 @@ a img:hover {
     flex-direction: row;
     padding: 1rem 0 0 0;
 }
-
 .head h1 { 
     padding: 1rem 0;
+}
+.head a {
+    color: #000;
+}
+.head a:hover { 
+    color: #c44; 
 }
 .telbox {
 	margin-left: auto;
@@ -50,6 +63,7 @@ nav li {
     flex: 1 0 auto;
 }
 nav li a {
+    color: #666;
     text-decoration: none;
     text-align: center;
 }
