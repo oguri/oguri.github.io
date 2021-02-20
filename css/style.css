@@ -138,6 +138,7 @@ main {
 }
 
 main h5 {
+    padding: .1em .5em;
     background-color: #f7f7f7;
 }
 
