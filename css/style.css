@@ -137,6 +137,10 @@ main {
     margin: 3rem 0 3rem 0;
 }
 
+main h5 {
+    background-color: #f7f7f7;
+}
+
 /*新着情報
 -------------------------------------*/
 .news h2 {
