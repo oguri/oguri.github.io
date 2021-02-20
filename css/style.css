@@ -56,7 +56,7 @@ nav ul {
 	flex-direction: row;
 	justify-content: space-around;
 	list-style: none;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 }
 nav li {
     display: block;
@@ -134,7 +134,7 @@ nav li {
 /*メインコンテンツ
 -------------------------------------*/
 main {
-    margin: 5rem 0 5rem 0;
+    margin: 3rem 0 3rem 0;
 }
 
 /*新着情報
@@ -194,7 +194,7 @@ footer h5 {
 /*パンくずリスト
 -----------------------------------*/
 .breadcrumb {
-    margin: 0 0 1em 0;
+    margin: 0 0 0 1em;
     padding: 0;	
 }
 .breadcrumb li {
