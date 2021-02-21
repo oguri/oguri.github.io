@@ -127,8 +127,12 @@ nav li {
 
 /*メイン画像
 -------------------------------------*/
+.mainimg {
+    max-width: 1200px;
+    margin:auto;
+}
 .mainimg img {
-	width: 100vw;
+    width: 100vw;
 }
 
 /*メインコンテンツ
